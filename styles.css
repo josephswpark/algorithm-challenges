@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background-image: url("h.jpeg");
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25% 75%;
+}
+
+h1 {
+  text-align: left;
+  color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.col-half {
+  flex-basis: 50%;
+}
+
+.search {
+  color: white;
+  margin-top: 3rem;
+}
